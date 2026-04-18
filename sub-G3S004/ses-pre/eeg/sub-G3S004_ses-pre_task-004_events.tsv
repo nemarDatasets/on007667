@@ -1,0 +1,15 @@
+onset	duration	trial_type	value	sample
+0.005	0	eyes_closed	65	1
+184.125	0	eyes_open	66	36825
+202.975	0	eyes_closed	65	40595
+218.945	0	eyes_open	66	43789
+234.245	0	eyes_closed	65	46849
+250.215	0	eyes_open	66	50043
+266.23	0	eyes_closed	65	53246
+282.225	0	eyes_open	66	56445
+299.99	0	eyes_closed	65	59998
+302.405	0	hyperventilation_1	67	60481
+413.65	0	hyperventilation_2	68	82730
+468.575	0	hyperventilation_3	69	93715
+476.37	0	sueno inducido	74	95274
+523.875	0	hiperventilacion 4	70	104775
