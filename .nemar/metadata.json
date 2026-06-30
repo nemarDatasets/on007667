@@ -2,11 +2,32 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Grupos Pre and Post bids",
+  "description": "A raw EEG neuroimaging dataset containing pre and post intervention measurements organized according to BIDS standards. The dataset includes electroencephalography recordings from multiple groups collected to assess intervention effects through longitudinal pre-post measurements. Data is suitable for comparative group-level analysis of changes across study phases. For detailed information about study design, methods, participant demographics, and data organization, please refer to the README.md file in the dataset root directory.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "MENGSHA QI": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "pre-post intervention design"
+    },
+    {
+      "term": "longitudinal study"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "group comparison"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007667.v1.0.0",
@@ -25,42 +46,19 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "648.9 MB (110 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".md",
-    ".tsv"
-  ],
-  "description": "A raw neuroimaging EEG dataset organized according to BIDS standards containing pre and post intervention measurements. This dataset is derived from the OpenNeuro dataset ds007667 and includes electroencephalography (EEG) recordings collected from multiple participants in a pre-post study design. The dataset contains EEG data in EDF format along with associated metadata files (JSON, TSV) and documentation. Participants underwent EEG recording sessions before and after an intervention. Data collection followed standardized neuroimaging protocols to ensure data quality and reproducibility. For comprehensive information about specific participant demographics, intervention details, study procedures, and data acquisition parameters, please refer to the complete dataset documentation on OpenNeuro (https://openneuro.org/datasets/ds007667).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "pre-post design"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "intervention study"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "longitudinal study"
-    }
+    ".tsv",
+    ".yml"
   ],
   "source_hash": "0d946c62862a46de99af819ae59440d755ff836e5e64d181aac854e7b0740ec5"
 }
