@@ -1,27 +1,66 @@
 {
   "version": "2.0",
-  "dataset_id": "on007667",
-  "source": "openneuro",
-  "source_id": "ds007667",
+  "pipeline_stage": "enriched",
   "title": "Grupos Pre and Post bids",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "MENGSHA QI": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007667.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007667",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007667",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "A raw neuroimaging EEG dataset organized according to BIDS standards containing pre and post intervention measurements. This dataset is derived from the OpenNeuro dataset ds007667 and includes electroencephalography (EEG) recordings collected from multiple participants in a pre-post study design. The dataset contains EEG data in EDF format along with associated metadata files (JSON, TSV) and documentation. Participants underwent EEG recording sessions before and after an intervention. Data collection followed standardized neuroimaging protocols to ensure data quality and reproducibility. For comprehensive information about specific participant demographics, intervention details, study procedures, and data acquisition parameters, please refer to the complete dataset documentation on OpenNeuro (https://openneuro.org/datasets/ds007667).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "pre-post design"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "intervention study"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "longitudinal study"
+    }
+  ],
+  "source_hash": "0d946c62862a46de99af819ae59440d755ff836e5e64d181aac854e7b0740ec5"
 }
