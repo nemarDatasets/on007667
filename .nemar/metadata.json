@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Grupos Pre and Post bids",
-  "description": "A raw EEG neuroimaging dataset containing pre and post intervention measurements organized according to BIDS standards. The dataset includes electroencephalography recordings from multiple groups collected to assess intervention effects through longitudinal pre-post measurements. Data is suitable for comparative group-level analysis of changes across study phases. For detailed information about study design, methods, participant demographics, and data organization, please refer to the README.md file in the dataset root directory.",
+  "description": "This dataset contains neuroimaging data organized in BIDS format, comparing pre- and post-intervention groups. It is intended to support analyses of changes associated with an experimental intervention, providing raw data for reuse by the research community.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,19 +13,10 @@
       "term": "EEG"
     },
     {
-      "term": "pre-post intervention design"
+      "term": "pre-post design"
     },
     {
-      "term": "longitudinal study"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "group comparison"
-    },
-    {
-      "term": "BIDS"
+      "term": "intervention"
     }
   ],
   "related_identifiers": [
