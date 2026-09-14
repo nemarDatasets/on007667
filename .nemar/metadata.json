@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Grupos Pre and Post bids",
-  "description": "This dataset contains neuroimaging data organized in BIDS format, comparing pre- and post-intervention groups. It is intended to support analyses of changes associated with an experimental intervention, providing raw data for reuse by the research community.",
+  "description": "This dataset contains EEG recordings organized in BIDS format, comparing groups measured before and after an intervention. It is intended to support analyses of pre- and post-intervention neural activity changes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,18 +13,13 @@
       "term": "EEG"
     },
     {
-      "term": "pre-post design"
+      "term": "pre-post comparison"
     },
     {
-      "term": "intervention"
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007667.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
     {
       "identifier": "https://github.com/nemarDatasets/on007667",
       "identifier_type": "URL",
@@ -34,6 +29,11 @@
       "identifier": "https://nemar.org/dataset/on007667",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007667.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
@@ -42,7 +42,7 @@
     "eeg"
   ],
   "sizes": [
-    "648.9 MB (110 files)"
+    "619 MB (110 files)"
   ],
   "formats": [
     ".edf",
@@ -51,5 +51,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "0d946c62862a46de99af819ae59440d755ff836e5e64d181aac854e7b0740ec5"
+  "source_hash": "8ef97e2e97bd236dad2ea1d5af92ad92fd865c92aedcdd1927d11ded0e1b3c8f"
 }
